@@ -1,0 +1,16 @@
+{
+  "name": "signer-server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.0.0",
+    "express": "^4.19.1",
+    "viem": "^2.8.18"
+  }
+}
